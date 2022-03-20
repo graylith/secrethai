@@ -1,0 +1,24 @@
+{
+  "name": "ThoughtLab | Full Service Creative & Digital Marketing Agency",
+  "short_name": "ThoughtLab",
+  "icons": [
+    
+    {
+      "src": "/static/favicon/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": "/index.html",
+  "theme_color": "#000",
+  "background_color": "#000",
+  "display": "standalone",
+  "prefer_related_applications": true,
+  "related_applications": [
+    {
+      "platform": "play",
+      "id": "com.google.samples.apps.iosched"
+    }
+  ]
+}
