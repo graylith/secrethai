@@ -3866,7 +3866,7 @@ class Ni extends we {
   }
   async load() {
     const e = o.webp ? "webp" : "png",
-      t = await ji("/static/cubemaps/01", e);
+      t = await ji("static/cubemaps/01", e);
     (this.gl.scene.environment = t),
       (this.material.uniforms.tMap.value = t),
       (this.material.uniforms.tRender.value = this.gl.renderTarget.texture),
